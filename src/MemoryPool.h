@@ -1,12 +1,11 @@
 #pragma once
+
 #include <assert.h>
 #include <algorithm>
 #include <stdio.h>
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
-
-
 
 namespace pinkx {
 #define DEFAULT_SMALL_SIZE  4096   

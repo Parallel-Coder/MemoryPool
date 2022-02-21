@@ -78,10 +78,4 @@ public:
     uchar* alloc(size_t size);
 };
 
-class PoolFactor {
-public:
-    static PMemoryPool* CreatePool();
-    static PMemoryPool* CreatePool(size_t size);
-    static void         DestoryPool(pinkx::PMemoryPool* pool);
-};
 }
